@@ -44,19 +44,17 @@ Key features of the app are :
 
 2. **Enter Channel Id and Pushing the youtube data into MongoDB**
 ------------
-![YT Channel ID.png](https://github.com/darshnk/Youtube-Data-Harvesting-and-Warehousing/blob/main/assets/Intro%20YT.png)
+![YT Channel ID.png](https://github.com/darshnk/Youtube-Data-Harvesting-and-Warehousing/blob/main/assets/YT%20Channel%20ID.png)
 
 
 3. **Selecting a channel to migrate the channel data to SQL**
 ------------
-![YT Data Analysis.png](https://github.com/darshnk/Youtube-Data-Harvesting-and-Warehousing/blob/main/assets/YT%20Data%20Analysis.png)
+![YT Data Mig.png](https://github.com/darshnk/Youtube-Data-Harvesting-and-Warehousing/blob/main/assets/YT%20Data%20Mig.png)
 
 
 4. **Retrieving YouTube information/data from SQL by selecting the Questions in the Dropdown**
 ------------
-![YT Data Mig.png](https://github.com/darshnk/Youtube-Data-Harvesting-and-Warehousing/blob/main/assets/YT%20Data%20Mig.png)
-
-
+![YT Data Analysis.png](https://github.com/darshnk/Youtube-Data-Harvesting-and-Warehousing/blob/main/assets/YT%20Data%20Analysis.png)
 
 
 
