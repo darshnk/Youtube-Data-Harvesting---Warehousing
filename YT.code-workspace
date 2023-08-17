@@ -3,6 +3,9 @@
 		{
 			"name": "YT",
 			"path": "../YT"
+		},
+		{
+			"path": "."
 		}
 	],
 	"settings": {}
