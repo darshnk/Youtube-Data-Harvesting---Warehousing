@@ -39,9 +39,7 @@ Key features of the app are :
 ------------
 1. **Intro Page - About the app and getting Channel ID**
 ------------
-![Screenshot from 2023-06-10 03-28-26](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/1132fe20-ee4d-4e09-9eed-b3e20d3caed1)
-![Screenshot from 2023-06-10 03-29-28](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/533616ea-bdcf-4409-93d3-345f76fddf24)
-![Screenshot from 2023-06-10 03-30-37](https://github.com/meetarthi/YouTube-Data-Harvesting-and-Warehousing-/assets/112666126/af9952d2-3417-45a3-90d8-81d8ae7e1f0b)
+![Intro YT.png](https://github.com/darshnk/Youtube-Data-Harvesting-and-Warehousing/blob/main/assets/Intro%20YT.png)
 
 
 2. **Enter Channel Id and Pushing the youtube data into MongoDB**
