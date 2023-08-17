@@ -4,7 +4,7 @@ The YouTube Data Analysis Application is a user-friendly tool designed to help u
 
 Key features of the app are :
 
-Easy Channel Data Retrieval: The application allows users to input a YouTube channel ID, fetch relevant details such as video count, channel views, playlists, videos, and comments, and store this data securely in both MongoDB and PostgreSQL databases.
+*Easy Channel Data Retrieval*: The application allows users to input a YouTube channel ID, fetch relevant details such as video count, channel views, playlists, videos, and comments, and store this data securely in both MongoDB and PostgreSQL databases.
 
 Seamless Data Migration: Users can seamlessly migrate channel data from MongoDB to a PostgreSQL database, enabling efficient data warehousing and analysis using SQL queries.
 
