@@ -1,4 +1,3 @@
-
 #streamlit, youtube imports
 import streamlit as st
 from pyyoutube import Api
@@ -15,10 +14,10 @@ import sqlalchemy
 from sqlalchemy import create_engine
 
 #youtube api key
-api = Api(api_key="AIzaSyArMScn4W4LfCp2PMZxyUKyjXm8lM6q-EY")
+api = Api(api_key="***************")
 
 #establishing a connection in mongodb
-client = pymongo.MongoClient("mongodb+srv://Cluster02416:RG90dmBRblxE@cluster02416.nyqmya2.mongodb.net/")
+client = pymongo.MongoClient("mongodb+srv://Cluster****:***@cluster***.nyqmya2.mongodb.net/")
 db = client.source
 collection = db.youtube
 
@@ -27,10 +26,10 @@ postgres_connection = psycopg2.connect(
     host='localhost',
     database='yt_db',
     user='postgres',
-    password='dash450324590'
+    password='*******'
 )
 
-engine = create_engine('postgresql+psycopg2://postgres:dash450324590@localhost:5432/yt_db', echo=False)
+engine = create_engine('postgresql+psycopg2://postgres:******@localhost:5432/yt_db', echo=False)
 
 #pushing youtube details into mongoDB
 def push_to_mongo(pd_youtube):
@@ -202,7 +201,6 @@ if app_mode == 'About the app':
     st.write("**Interactive Data Analysis**: The Data Analysis section offers a range of predefined questions about the channels, presenting users with valuable insights such as the most viewed videos, the channels with the highest number of videos, and more.")
     st.write("**User-Friendly Interface**: With an intuitive Streamlit interface, users can navigate through various functionalities effortlessly. The application guides users on finding YouTube channel IDs and provides a streamlined process for data storage and analysis.")
     st.title("How to get channel ID from YouTube")
-    #st.write("#")
     st.write('1. Go to a youtube channel, RIGHT CLICK on the channel screen. Click on VIEW PAGE SOURCE option.')
     st.image('youtube right click.png')
     st.write("#")
