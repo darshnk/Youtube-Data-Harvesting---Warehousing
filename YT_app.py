@@ -184,7 +184,7 @@ def migrate_to_sql(channel_name):
 
 
 #streamlit--sidebar
-image_path = "YT_logo1.png"
+image_path = "YT_logo.png"
 st.sidebar.image(image_path)
 app_mode = st.sidebar.selectbox(
     "**SELECT PAGE**",

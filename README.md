@@ -1,8 +1,16 @@
 # YouTube-Data-Harvesting-and-Warehousing-
-[Link to access the app](https://arthimurali-youtube.hf.space/)
 
-YouTube Data Harvesting and Warehousing is a application which allows the users to access and analyze data from multiple YouTube channels. This application allows the user to give a YouTube channel ID as input and retrieves the relevant data.  
-Able to collect data for multiple YouTube channels and store them in a database by just clicking a button. By Selecting a channel , we could migrate the data from Mongo Database to SQL, to retrieve the relevant youtube Channel information like video comments , likes.
+The YouTube Data Analysis Application is a user-friendly tool designed to help users explore, analyze, and gain insights on data collected from multiple YouTube channels. Leveraging the capabilities of Streamlit, along with APIs from YouTube, MongoDB, and PostgreSQL, this application enables effortless data retrieval, storage, and analysis.
+
+Key features of the app are :
+
+Easy Channel Data Retrieval: The application allows users to input a YouTube channel ID, fetch relevant details such as video count, channel views, playlists, videos, and comments, and store this data securely in both MongoDB and PostgreSQL databases.
+
+Seamless Data Migration: Users can seamlessly migrate channel data from MongoDB to a PostgreSQL database, enabling efficient data warehousing and analysis using SQL queries.
+
+Interactive Data Analysis: The Data Analysis section offers a range of predefined questions about the channels, presenting users with valuable insights such as the most viewed videos, the channels with the highest number of videos, and more.
+
+User-Friendly Interface: With an intuitive Streamlit interface, users can navigate through various functionalities effortlessly. The application guides users on finding YouTube channel IDs and provides a streamlined process for data storage and analysis.
 
 **Developed using:**
 ------------
